@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+   
+}
+body{
+    background-color:lightgreen;
+    height: 3000px;
+}
+.menu{
+    background-image: linear-gradient(to bottom,lightgreen,rgb(1, 100, 1));
+    height: 150px;
+    background-color: lightgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+ 
+}
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.frase_titulo{
+    color: rgb(207, 206, 206);
+    font-weight: bold;
+}
+.links{
+    background-color: rgb(1, 99, 1);
+    color: white;
+    padding-bottom: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.link_menu{
+color: rgb(255, 255, 255);
+text-decoration: none;
+padding-left: 15px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+}
+.pagina{
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    top: 177px;
+    left: 25%;
+    padding: 15px;
+    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.5);
+}
+.titulo_pagina{
+    color: rgb(1, 78, 1);
+}
+        
+.atexto_pagina{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(59, 59, 59);
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+    
+}
+.btitulo_pagina{
+    color: rgb(1, 78, 1);
+    margin: 10px 0px 10px 0px;
+    background-image: linear-gradient(to left, white,lightgreen);
+    font-size: 20px;
+    padding-left: 5px;
+}
+.ft{
+    width: 100%;
+}
+.ft_android{
+    width: 50%;
+    
+}
+.bft_android{
+    display: flex;
+    justify-content: center;
+}
+.nome_criador{
+    color: rgb(1, 78, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.video{
+   background-color: rgb(1, 78, 1);
+   margin: 0px -15px -15px -15px;
+   padding: 10px 0px 330px 20px;
+   position: relative;
+   margin-bottom: 30px;
+}
+.video > iframe{
+    position: absolute;
+    width: 97%;
+    left: 10px;
+}
+.menu_baixo{
+    background-color: green ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px ;
+}
+.menu_lista{
+    background-color: rgb(119, 211, 119);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold; 
+    
+}
+.texto_lista{
+    margin-bottom: 20px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+#link_lista{
+    color: black;
+    font-weight: bold;
+}
+.tipo_lista{
+    list-style: url('midia/imagens/chcek_icon.svg');
+    
+}
+.lista{
+    display: flex;
+    display: inline-block;
+    margin-right: 25%;
+}
+.blista{
+    display: flex;
+    display: inline-block;
+    background-color: red;
+}

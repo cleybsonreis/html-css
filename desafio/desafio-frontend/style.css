@@ -1,0 +1,69 @@
+ /* cores = 
+    background color = #141414
+    background color-tela = #1F1F1F
+    color-titulo = b1cc4f
+    color-name = white
+    color-bottom = 333333
+ */
+*{
+    margin: 0;
+}
+body{
+    background-color: #141414;
+    padding-bottom: 800px;
+    
+}
+.tudo{
+    background-color: #1f1f1f;
+    position: absolute;
+    text-align: center;
+    padding: 35px 40px 40px 40px;
+    border-radius: 10px;
+    position: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.ft_jessica{
+    width: 20%;
+    border-radius: 50%;
+}
+#name{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.place{
+    font-size: 14px;
+    color: #b1cc4f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#job{
+    padding-top: 20px;
+    color: gray;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.link{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #333333;
+    padding: 15px 110px 15px 110px ;
+    border-radius: 10px;
+}
+.link:hover{
+    opacity: 0.7;
+    color: #b1cc4f;
+    
+}
+#links{
+    display: flex;
+    flex-flow: column;
+    gap: 15px;
+}

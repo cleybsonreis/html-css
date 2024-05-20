@@ -1,0 +1,15 @@
+segurar o alt apaga os 2
+
+texte-indent
+
+todos sao um tipo de div, mas é semantico assim
+
+header > parte de cida do site
+
+nav > menu 
+
+main > área principal
+
+section > separar conteudos
+
+footer > final de site 

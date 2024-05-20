@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    background-color: rgb(24, 24, 24);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.texto_video{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.fts{
+    width: 100%;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+   
+}
+.curso_html{
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+.video_html{
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+.link_curso_completo_html{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.todo_btn{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+.ft_btn{
+     width: 50px;
+     background-color: white;
+     border: 3px solid white;
+     border-radius: 50%;
+     cursor:pointer;
+}
+.ft_btn:active{
+padding-right: 4px;
+}
